@@ -14,3 +14,8 @@
 > 2022.4.2更新
 
 求解二维泊松方程，在上一版的基础上增加了三种高效的代数方程组迭代求法，分别是SIP强隐式算法，MSD最速下降法，CG共轭梯度。理论及模拟结果见[博客](https://blog.csdn.net/CFD_Tyro/article/details/123902744?spm=1001.2014.3001.5501)
+
+## 有限体积法求解二维方腔流
+> 2022.5.3更新
+
+顶盖驱动流，压力速度耦合算法采用PISO，离散过程及结果对比请参考[理论手册一](https://blog.csdn.net/CFD_Tyro/article/details/124555888?spm=1001.2014.3001.5502)、[理论手册二](https://blog.csdn.net/CFD_Tyro/article/details/124555948?spm=1001.2014.3001.5502)、[结果对比](https://blog.csdn.net/CFD_Tyro/article/details/124556078?spm=1001.2014.3001.5502)，比较了t=0.1s的计算结果与OpenFOAM中icoFoam求解器所得结果的差异。结果表明计算过程正确。
